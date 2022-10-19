@@ -17,3 +17,4 @@ inputs
 outputs
 .mypy_cache
 src
+latent_diffusion.egg-info
