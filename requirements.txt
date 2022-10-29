@@ -15,14 +15,15 @@ pytorch-lightning==1.4.2
 pudb==2019.2
 streamlit>=0.73.1
 test-tube>=0.7.5
-torch==1.11.0
-torchmetrics==0.6.0
-torchvision==0.12.0
+torch
+torchmetrics
+torchvision
 torch-fidelity==0.3.0
 transformers==4.19.2
 tqdm==4.64.0
 -e git+https://github.com/CompVis/taming-transformers.git@master#egg=taming-transformers
 -e git+https://github.com/openai/CLIP.git@main#egg=clip
+-e .
 
 regex
 dall-e
